@@ -1,4 +1,5 @@
 # zola-in-a-can
+
 🦀🥫 - it's Zola in a container
 
 ## usage
@@ -6,7 +7,12 @@
 change directories into your project's root directory, then run it
 
 ```shell
-docker run --rm -v $PWD:/app -p 1111:1111 --workdir /app ghcr.io/some-natalie/zola-in-a-can:latest serve --interface 0.0.0.0
+docker run --rm \
+  -v $PWD:/app \
+  -p 1111:1111 \
+  --workdir /app \
+  ghcr.io/some-natalie/zola-in-a-can:latest serve \
+  --interface 0.0.0.0
 ```
 
 ## notes
