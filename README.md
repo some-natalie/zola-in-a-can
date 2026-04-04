@@ -17,7 +17,7 @@ docker run --rm \
 
 ## notes
 
-it's rebuilt once a week automatically. all versions are unpinned by default and will float to latest or whatever is in the gemfile. the base image is Chainguard's `rust:latest-dev` tag, then the `glibc-dynamic:latest` tag for runtime.
+it's rebuilt once a week automatically. all versions are unpinned by default and will float to latest. the base image is Chainguard's `rust:latest-dev` tag, then the `glibc-dynamic:latest` tag for runtime.
 
 this isn't for production use, just local development of static sites.
 
