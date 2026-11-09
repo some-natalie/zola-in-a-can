@@ -22,3 +22,5 @@ it's rebuilt once a week automatically. all versions are unpinned by default and
 this isn't for production use, just local development of static sites.
 
 images older than 2 months are deleted automatically.
+
+Dependabot groups GitHub Actions and Docker dependency updates into one weekly PR. the floating Docker tags still pick up new images during weekly builds without a version bump PR.
